@@ -13,3 +13,5 @@ This module will be used to monitor my pool temperature, and generate alarms if 
 - Tapko KIMaip KNX bus interface module
 - MAX31865 RTD-to-Digital Converter
 - Extra binary I/O 
+- For STM32F303RE you should setup compiler parameter as this Project-> Properties -> MCU Settings -> Runtime Library => "Reduced C ...." and tick under the two chechbox starting use float with ....
+- 
